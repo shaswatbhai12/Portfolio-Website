@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaswat- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.01rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .first {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+
+      .first > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+
+      .leftSection .btn{
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+
+      .image-top {
+        width: 60px;
+        position: relative;
+        top: 20px;
+        left: 37px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 33px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 36px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shaswat's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first">
+        <div class="leftSection" style="width: 40%">
+          Hi, My name is <span class="purple">Shaswat</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Past Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="HTML.png" alt="" />
+            <div class="vertical-title">HTML developer (2020-2021)</div>
+            <div class="vertical-desc">
+              I am a HTML Developer from 2020-2021
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Nodejs.png" alt="" />
+
+            <div class="vertical-title">Node JS Developer (2021-2022)</div>
+            <div class="vertical-desc">
+              I am a Node JS Developer from 2021-2022
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Java.png" alt="" />
+
+            <div class="vertical-title">Java Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              I am a Java Developer from 2022-2023
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Django.png" alt="" />
+
+            <div class="vertical-title">Django Developer (2023-2024)</div>
+            <div class="vertical-desc">
+              I am a Django - Python Developer from 2023-2024
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Flask.png" alt="" />
+
+            <div class="vertical-title">Flask Developer (2024-2025)</div>
+            <div class="vertical-desc">
+              I am a Flask - Python Developer from 2024-2025
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="PHP.png" alt="" />
+
+            <div class="vertical-title">PHP Developer (2025-2026)</div>
+            <div class="vertical-desc">
+              I am a PHP Developer from 2025-2026
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Shaswat's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="/" style="color: white; text-decoration: none;">Home</a></li>
+            <!-- <li>About</li>
+            <li>Services</li>
+            <li>Contact</li> -->
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li><a href="/projects.html" style="color: white; text-decoration: none;">Projects</a></li>
+            <!-- <li>About</li>
+            <li>Services</li>
+            <li>Contact</li> -->
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li><a href="/contact.html" style="color: white; text-decoration: none;">Contact Me</a></li>
+            <!-- <li>About</li>
+            <li>Services</li>
+            <li>Contact</li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        copyright &copy; Shaswat's Developer Portfolio | All Rights Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Grafic Desiner",
+          "Web Designer",
+          "Video Editor",
+          "App Developer",          
+        ],
+        typeSpeed: 50,
+        
+      });
+    </script>
+  </body>
+</html>
